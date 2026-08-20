@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Main Timetable Tablet / Schedule Card -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,24 L76,24 A6,6 0 0,1 82,30 L82,78 A6,6 0 0,1 76,84 L32,84 A6,6 0 0,1 26,78 L26,30 A6,6 0 0,1 32,24 Z" />
+    
+    <!-- Top Header Bar on Card -->
+    <path
+        android:fillColor="#3949AB"
+        android:pathData="M26,30 A6,6 0 0,1 32,24 L76,24 A6,6 0 0,1 82,30 L82,38 L26,38 Z" />
+
+    <!-- Binder rings at top -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M36,20 L40,20 L40,28 L36,28 Z M52,20 L56,20 L56,28 L52,28 Z M68,20 L72,20 L72,28 L68,28 Z" />
+
+    <!-- Timetable rows -->
+    <path
+        android:fillColor="#00ACC1"
+        android:pathData="M32,44 L54,44 A2,2 0 0,1 54,48 L32,48 A2,2 0 0,1 32,44 Z M32,52 L60,52 A2,2 0 0,1 60,56 L32,56 A2,2 0 0,1 32,52 Z M32,60 L50,60 A2,2 0 0,1 50,64 L32,64 A2,2 0 0,1 32,60 Z" />
+
+    <!-- Checkmark bullets -->
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M29,46 L30,47 L32,44.5 L31.5,44 L30,45.8 L29.5,45.3 Z M29,54 L30,55 L32,52.5 L31.5,52 L30,53.8 L29.5,53.3 Z M29,62 L30,63 L32,60.5 L31.5,60 L30,61.8 L29.5,61.3 Z" />
+
+    <!-- Circular Study Clock Badge (overlapping bottom right) -->
+    <!-- Shadow circle -->
+    <path
+        android:fillColor="#22000000"
+        android:pathData="M66,66 m-17,0 a17,17 0 1,0 34,0 a17,17 0 1,0 -34,0" />
+    <!-- Clock background -->
+    <path
+        android:fillColor="#FF6D00"
+        android:pathData="M65,65 m-16,0 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,65 m-13.5,0 a13.5,13.5 0 1,0 27,0 a13.5,13.5 0 1,0 -27,0" />
+    <!-- Clock Hands at 10:10 -->
+    <path
+        android:strokeColor="#212121"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M65,65 L65,56 M65,65 L71,68" />
+    <!-- Center Dot -->
+    <path
+        android:fillColor="#FF6D00"
+        android:pathData="M65,65 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+</vector>
+

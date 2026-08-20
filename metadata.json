@@ -1,0 +1,6 @@
+{
+  "name": "Study Timetable",
+  "description": "Smart study timetable app with real-time admin sync, user study progress analytics, and exact alarm notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
